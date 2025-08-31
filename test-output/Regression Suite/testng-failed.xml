@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utils.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Api.RestAssured.Practice.Demo.CreateUserWithList">
+        <methods>
+          <include name="setupExtentTest"/>
+          <include name="flushExtentReports"/>
+          <include name="setupExtentReport"/>
+          <include name="tearDownExtentTest"/>
+          <include name="validateStatusCode"/>
+        </methods>
+      </class> <!-- com.Api.RestAssured.Practice.Demo.CreateUserWithList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

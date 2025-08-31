@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-30T14:35:58Z" name="Regression Suite" finished-at="2025-08-30T14:36:00Z" duration-ms="2136">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateUserWithList.validateStatusCode()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" name="validateStatusCode" class="com.Api.RestAssured.Practice.Demo.CreateUserWithList"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-08-30T14:35:58Z" name="Test" finished-at="2025-08-30T14:36:00Z" duration-ms="2136">
+      <class name="com.Api.RestAssured.Practice.Demo.CreateUserWithList">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" started-at="2025-08-30T14:35:57Z" name="setupExtentReport" finished-at="2025-08-30T14:35:58Z" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setupExtentTest(java.lang.reflect.Method)[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" started-at="2025-08-30T14:35:58Z" name="setupExtentTest" finished-at="2025-08-30T14:35:58Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Api.RestAssured.Practice.Demo.CreateUserWithList.validateStatusCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentTest -->
+        <test-method signature="validateStatusCode()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" started-at="2025-08-30T14:35:58Z" name="validateStatusCode" finished-at="2025-08-30T14:36:00Z" duration-ms="2110" status="FAIL">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method is-config="true" signature="tearDownExtentTest()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" started-at="2025-08-30T14:36:00Z" name="tearDownExtentTest" finished-at="2025-08-30T14:36:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentTest -->
+        <test-method is-config="true" signature="flushExtentReports()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithList@130e116b]" started-at="2025-08-30T14:36:00Z" name="flushExtentReports" finished-at="2025-08-30T14:36:00Z" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtentReports -->
+      </class> <!-- com.Api.RestAssured.Practice.Demo.CreateUserWithList -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

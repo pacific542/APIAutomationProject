@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [API Automation Session Smoke Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utils.RetryListener"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="New USer Creation Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Api.RestAssured.Practice.Demo.EasyAPIScenarios">
+        <methods>
+          <include name="setupExtentTest"/>
+          <include name="flushExtentReports"/>
+          <include name="setupExtentReport"/>
+          <include name="uploadImage"/>
+          <include name="tearDownExtentTest"/>
+        </methods>
+      </class> <!-- com.Api.RestAssured.Practice.Demo.EasyAPIScenarios -->
+    </classes>
+  </test> <!-- New USer Creation Test Cases(failed) -->
+</suite> <!-- Failed suite [API Automation Session Smoke Suite] -->

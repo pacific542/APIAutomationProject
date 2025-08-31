@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        
+        <!-- Document Title of the report -->
+        <documentTitle>Automation Test Report</documentTitle>
+        
+        <!-- Report Name (appears on the dashboard) -->
+        <reportName>Regression Suite Report</reportName>
+        
+        <!-- Theme (can be "standard" or "dark") -->
+        <theme>dark</theme>
+        
+        <!-- Encoding -->
+        <encoding>utf-8</encoding>
+        
+        <!-- Timeline enabled for execution charts -->
+        <timelineEnabled>true</timelineEnabled>
+        
+        <!-- Charts and Views -->
+        <charts>
+            <enable>true</enable>
+            <configuration>
+                <chartLocation>top</chartLocation>
+                <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+            </configuration>
+        </charts>
+
+        <!-- Custom CSS -->
+        <styles>
+            <![CDATA[
+                .report-name { font-size: 28px; font-weight: bold; color: #00BCD4; }
+                .test-status.pass { background-color: #2ecc71; }
+                .test-status.fail { background-color: #e74c3c; }
+            ]]>
+        </styles>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+                console.log("Extent Report Loaded");
+            ]]>
+        </scripts>
+
+    </configuration>
+</extentreports>
