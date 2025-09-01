@@ -26,7 +26,7 @@ public class CreateUserWithList extends TestBase {
 	    sAssert.assertEquals(response.statusCode(), StatusCode.BAD_REQUEST.code, "Status code epected"+StatusCode.SUCCESS.code+"But found"+response.statusCode());
 	
 	}
-	@Test (groups = {"Regression"})
+	@Test (groups = {"Regression","Smoke"})
 	public void validateCreatedData()
 	{
 	    Response response=Endpoints.createUserWithLIst();
