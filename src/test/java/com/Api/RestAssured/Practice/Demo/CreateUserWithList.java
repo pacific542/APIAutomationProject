@@ -18,7 +18,7 @@ import Utils.JsonTestDataReader;
 import io.restassured.response.Response;
 @Listeners(Utils.TestListener.class)
 public class CreateUserWithList extends TestBase {
-	@Test(groups = {"Regression","Sanity"})
+	@Test(groups = {"Regression"})
 	public void validateStatusCode()
 	{
 	    Response response=Endpoints.createUserWithLIst();
