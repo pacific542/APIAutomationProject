@@ -34,7 +34,7 @@ public class SecondClass extends TestBase{
 		RestAssured.baseURI = ConfigReader.getPropertyValue("url");
 
 		Response response = RestAssured.given().auth()
-				.basic(ConfigReader.getPropertyValue("username"),JsonTestDataReader.getValue("password")).when()
+				.basic(ConfigReader.getPropertyValue("username"),"password").when()
 				.get("basic-auth").then().extract().response();
 		System.out.println("Value from jason file" + StatusCode.SUCCESS.code);
 		System.out.println("Value from response" + response.statusCode());

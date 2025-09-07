@@ -16,14 +16,15 @@ import Core.StatusCode;
 import Core.TestBase;
 import Utils.JsonTestDataReader;
 import io.restassured.response.Response;
+import org.testng.annotations.Listeners;
 @Listeners(Utils.TestListener.class)
-public class CreateUserWithList extends TestBase {
+public class CreateUserWithListTest extends TestBase {
 	@Test(groups = {"Regression"})
 	public void validateStatusCode()
 	{
 	    Response response=Endpoints.createUserWithLIst();
 	    System.out.println(response.asPrettyString());
-	    sAssert.assertEquals(response.statusCode(), StatusCode.BAD_REQUEST.code, "Status code epected"+StatusCode.SUCCESS.code+"But found"+response.statusCode());
+	    sAssert.assertEquals(response.statusCode(), StatusCode.SUCCESS.code, "Status code epected"+StatusCode.SUCCESS.code+"But found"+response.statusCode());
 	
 	}
 	@Test (groups = {"Regression","Smoke"})

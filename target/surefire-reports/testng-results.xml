@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-06T22:17:42 IST" name="Regression Suite" finished-at="2025-09-06T22:18:57 IST" duration-ms="74591">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateUserWithListTest.validateCreatedData()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" name="validateCreatedData" class="com.Api.RestAssured.Practice.Demo.CreateUserWithListTest"/>
+        <method signature="CreateUserWithListTest.validateStatusCode()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" name="validateStatusCode" class="com.Api.RestAssured.Practice.Demo.CreateUserWithListTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CreateUserWithListTest.validateCreatedData()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" name="validateCreatedData" class="com.Api.RestAssured.Practice.Demo.CreateUserWithListTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-09-06T22:17:42 IST" name="Test" finished-at="2025-09-06T22:18:57 IST" duration-ms="74591">
+      <class name="com.Api.RestAssured.Practice.Demo.CreateUserWithListTest">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:17:42 IST" name="setupExtentReport" finished-at="2025-09-06T22:17:42 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setupExtentTest(java.lang.reflect.Method)[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:17:43 IST" name="setupExtentTest" finished-at="2025-09-06T22:17:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Api.RestAssured.Practice.Demo.CreateUserWithListTest.validateCreatedData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentTest -->
+        <test-method retried="true" signature="validateCreatedData()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:17:43 IST" name="validateCreatedData" finished-at="2025-09-06T22:18:03 IST" duration-ms="20712" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.Api.RestAssured.Practice.Demo.CreateUserWithListTest.validateCreatedData(CreateUserWithListTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedData -->
+        <test-method is-config="true" signature="tearDownExtentTest()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:03 IST" name="tearDownExtentTest" finished-at="2025-09-06T22:18:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentTest -->
+        <test-method is-config="true" signature="setupExtentTest(java.lang.reflect.Method)[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:03 IST" name="setupExtentTest" finished-at="2025-09-06T22:18:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Api.RestAssured.Practice.Demo.CreateUserWithListTest.validateCreatedData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentTest -->
+        <test-method signature="validateCreatedData()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:03 IST" name="validateCreatedData" finished-at="2025-09-06T22:18:49 IST" duration-ms="45500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedData -->
+        <test-method is-config="true" signature="tearDownExtentTest()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:49 IST" name="tearDownExtentTest" finished-at="2025-09-06T22:18:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentTest -->
+        <test-method signature="validateStatusCode()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:49 IST" name="validateStatusCode" finished-at="2025-09-06T22:18:57 IST" duration-ms="8327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method is-config="true" signature="setupExtentTest(java.lang.reflect.Method)[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:49 IST" name="setupExtentTest" finished-at="2025-09-06T22:18:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Api.RestAssured.Practice.Demo.CreateUserWithListTest.validateStatusCode()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentTest -->
+        <test-method is-config="true" signature="tearDownExtentTest()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:57 IST" name="tearDownExtentTest" finished-at="2025-09-06T22:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentTest -->
+        <test-method is-config="true" signature="flushExtentReports()[pri:0, instance:com.Api.RestAssured.Practice.Demo.CreateUserWithListTest@f09733f]" started-at="2025-09-06T22:18:57 IST" name="flushExtentReports" finished-at="2025-09-06T22:18:58 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtentReports -->
+      </class> <!-- com.Api.RestAssured.Practice.Demo.CreateUserWithListTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
